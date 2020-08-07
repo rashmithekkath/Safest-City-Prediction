@@ -2,7 +2,7 @@
 """
 Created on Tue May 19 21:35:20 2020
 
-@author: Rashmi Thekkath
+@author: Rashmi Dinesh Thekkath
 """
 
 #TO FIND NEARBY AREAS [ALGO STEP 1- CLUSTERING BASED ON LATITUDE AND LONGITUDE]
