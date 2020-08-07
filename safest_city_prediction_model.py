@@ -91,7 +91,6 @@ for_model
 mylist=[]
 for ind in for_model.index: 
     if(for_model['City'][ind].strip()==input('Your City Name: ').strip()):
-                #print('Hi, good going!')
                 factor_one=((for_model['Value.deaths'][ind])/(for_model['Value.confirmed'][ind]))
                 factor_two=((for_model['Value.deaths'][ind])/(for_model['Population'][ind]))**2
                 factor=float(1/(factor_one*factor_two))
